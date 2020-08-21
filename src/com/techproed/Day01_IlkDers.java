@@ -18,10 +18,10 @@ public class Day01_IlkDers {
         // driver'ımıza google.com'a gitmesini söyledik.
         webdriver.get("http://google.com");
         //driverımızda açık olan pencereyi kapatır.
-       // webdriver.close();
+        webdriver.close();
 
         //driverımı komple kapatıyor
-       // webdriver.quit();
+        webdriver.quit();
 
 
 
